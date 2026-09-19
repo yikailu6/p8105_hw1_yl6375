@@ -10,3 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # Problem 1
+```{r}
+#install.packages("palmerpenguins")
+data("penguins", package = "palmerpenguins")
+```
+
